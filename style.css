@@ -48,11 +48,10 @@ button {
     border: 1px solid black;
     font-weight: 600;
     font-size: 20px;
-}
-
-button:hover {
     cursor: pointer;
 }
+
+
 
 /* Commons end */
 
