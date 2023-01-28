@@ -1,0 +1,180 @@
+
+@font-face {
+    font-style: normal;
+    font-weight: 400;   
+    font-family: 'Roboto';
+    font-display: swap;  
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype'); 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section__inner,
+.information__illustrations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Commons end */
+
+/* Header */
+
+.header {
+    padding-top: 20px;
+}
+
+.header__logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.nav__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 30px;
+}
+
+/* Intro */
+
+.intro__title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.intro__inner {
+    gap: 5%;
+}
+
+/* Information */
+
+.information {
+    background-color: #F9FAF8;
+}
+
+.information__header {
+    color: #1F2937;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.information__inner {
+    flex-direction: column;
+}
+
+.information__illustrations--item {
+    max-width: 20%;
+    text-align: center;
+}
+
+.information__illustrations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information__illustrations--image {
+    border: 5px #3882F6 solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin: 0 auto;
+}
+
+.information__illustrations--subtext {
+    color: #1F2937;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quote__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote__text {
+    font-style: italic;
+}
+
+.quote__signature {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+/* Sign Up */
+
+.signup {
+    background-color: #F9FAF8;
+}
+
+.signup__area {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.signup__inner {
+    width: 100%;
+}
+
+.signup__button {
+    border-color: #F9FAF8;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
