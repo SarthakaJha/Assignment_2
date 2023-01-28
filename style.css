@@ -1,14 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Merriweather:wght@300&display=swap');
 @font-face {
     font-style: normal;
     font-weight: 400;   
-    font-family: 'Roboto';
+    font-family: 'Merriweather', serif;
     font-display: swap;  
     src: url(../fonts/Roboto-Regular.ttf) format('truetype'); 
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0;
     background-color: #1F2937;
     color: #F9FAF8;
