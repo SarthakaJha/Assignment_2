@@ -8,6 +8,7 @@
 }
 
 body {
+    padding: 5px;
     font-family: 'Merriweather', serif;
     margin: 0;
     background-color: #1F2937;
@@ -30,8 +31,8 @@ section {
     padding-bottom: 100px;
 }
 
-.section__inner,
-.information__illustrations {
+.section_inner,
+.info_illustrations {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,9 +41,9 @@ section {
 button {
     width: 140px;
     height: 40px;
-    background-color: #3882F6;
+    background-color: #304c7a;
     color: #F9FAF8;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     vertical-align: middle;
     border: 1px solid black;
@@ -61,13 +62,13 @@ button {
     padding-top: 20px;
 }
 
-.header__logo {
+.header_logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
 }
 
-.nav__link {
+.nav_link {
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
@@ -77,71 +78,71 @@ button {
 
 /* Intro */
 
-.intro__title {
+.intro_title {
     font-size: 48px;
     color: #F9FAF8;
 }
 
-.intro__inner {
+.intro_inner {
     gap: 5%;
 }
 
-/* Information */
+/* info */
 
-.information {
+.info {
     background-color: #F9FAF8;
 }
 
-.information__header {
+.info_header {
     color: #1F2937;
     margin-bottom: 50px;
     font-size: 36px;
 }
 
-.information__inner {
+.info_inner {
     flex-direction: column;
 }
 
-.information__illustrations--item {
+.info_illustrations_item {
     max-width: 20%;
     text-align: center;
 }
 
-.information__illustrations {
+.info_illustrations {
     display: flex;
     justify-content: space-around;
 }
 
-.information__illustrations--image {
-    border: 5px #3882F6 solid;
+.info_illustrations_image {
+    border: 5px #8db3f0 solid;
     width: 150px;
     height: 150px;
     border-radius: 10%;
     margin: 0 auto;
 }
 
-.information__illustrations--subtext {
+.info_illustrations_subtext {
     color: #1F2937;
 }
 
 /* Quote */
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #8c9099;
     color: #1F2937;
     font-size: 36px;
 }
 
-.quote__inner {
+.quote_inner {
     display: flex;
     flex-direction: column;
 }
 
-.quote__text {
+.quote_text {
     font-style: italic;
 }
 
-.quote__signature {
+.quote_signature {
     font-weight: bold;
     width: 100%;
     display: flex;
@@ -154,17 +155,17 @@ button {
     background-color: #F9FAF8;
 }
 
-.signup__area {
+.signup_area {
     background-color: #3882F6;
     padding: 50px 100px;
     border-radius: 10px;
 }
 
-.signup__inner {
+.signup_inner {
     width: 100%;
 }
 
-.signup__button {
+.signup_button {
     border-color: #F9FAF8;
 }
 
