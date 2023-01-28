@@ -32,7 +32,7 @@ section {
 }
 
 .section_inner,
-.info_illustrations {
+.info_instance {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,17 +103,17 @@ button {
     flex-direction: column;
 }
 
-.info_illustrations_item {
+.info_instance_item {
     max-width: 20%;
     text-align: center;
 }
 
-.info_illustrations {
+.info_instance {
     display: flex;
     justify-content: space-around;
 }
 
-.info_illustrations_image {
+.info_instance_image {
     border: 5px #8db3f0 solid;
     width: 150px;
     height: 150px;
@@ -121,7 +121,7 @@ button {
     margin: 0 auto;
 }
 
-.info_illustrations_subtext {
+.info_instance_subtext {
     color: #1F2937;
 }
 
