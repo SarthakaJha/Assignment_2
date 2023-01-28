@@ -52,12 +52,6 @@ button {
     cursor: pointer;
 }
 
-
-
-/* Commons end */
-
-/* Header */
-
 .header {
     padding-top: 20px;
 }
@@ -76,8 +70,6 @@ button {
     margin-left: 30px;
 }
 
-/* Intro */
-
 .intro_title {
     font-size: 48px;
     color: #F9FAF8;
@@ -87,7 +79,6 @@ button {
     gap: 5%;
 }
 
-/* info */
 
 .info {
     background-color: #F9FAF8;
@@ -125,8 +116,6 @@ button {
     color: #1F2937;
 }
 
-/* Quote */
-
 .quote {
     background-color: #8c9099;
     color: #1F2937;
@@ -149,7 +138,6 @@ button {
     justify-content: end;
 }
 
-/* Sign Up */
 
 .signup {
     background-color: #F9FAF8;
@@ -169,7 +157,6 @@ button {
     border-color: #F9FAF8;
 }
 
-/* Footer */
 
 .footer {
     text-align: center;
